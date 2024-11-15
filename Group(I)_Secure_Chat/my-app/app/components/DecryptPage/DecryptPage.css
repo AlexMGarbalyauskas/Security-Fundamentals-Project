@@ -1,0 +1,72 @@
+.background-file{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#137b40, #fbf5ff);
+}
+
+.FileEncrypt-container{
+    border-width: 10px;
+    border-radius: 40px;
+    border-color: #137b40;
+    height: 600px;
+    width: 540px;
+    background-color: #ffffff;
+}
+
+.file-text{
+    margin: auto;
+    width: 60%;
+    border-width: 5px;
+    border-color: rgb(190, 190, 190);
+    border-radius: 20px;
+    background-color: #137b40;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+} 
+
+.file-text h4{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.decrypt-container {
+    text-align: center;
+    margin: 20px;
+   
+}
+
+.decrypt-container h3 {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.decrypt-button{
+    font-size: 16px;
+    margin: auto;
+    border-width: 4px;
+    border-radius: 20px;
+    width: 25%;
+    margin-top: 80px;
+    background-color: rgb(0, 238, 36);
+    color: #050505;
+    text-align: center;
+}
+
+.decrypt-button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 168, 0);
+}
+
+.decrypt-output h4{
+    color: #137b40;
+}
+
+
+
+
