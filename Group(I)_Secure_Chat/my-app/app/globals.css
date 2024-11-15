@@ -1,0 +1,24 @@
+/* First page style of sign in*/
+/* no styling was added for this as it created issues for other styles (components were worked on first)
+within the components and appears at the top of the page when signed in in white*/
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #137b40;
+    --foreground: #ffffff;
+  }
+}
+
+header {
+  color: #000000;
+}
