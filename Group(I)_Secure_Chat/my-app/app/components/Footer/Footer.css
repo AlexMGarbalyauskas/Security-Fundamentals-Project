@@ -1,0 +1,57 @@
+
+.footer-container {
+    
+    height: 150px;
+    background: #343541; /* Matches the sender-area background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; /* Adds padding for spacing */
+    border-top: 2px solid #2E2F3A; /* Adds a border for separation */
+    color: #ffffff; /* Matches text color to be readable on dark background */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.line-cut{
+    height: 6px;
+    width: 100%;
+    background: black;
+}
+
+.text{
+    margin-bottom: 40px;
+    margin-left: 1000px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #828E9E;
+}
+  
+.footer-section {
+    font-size: 20px;
+    color: #828E9E; /* Softer gray for text color */
+}
+  
+.footer-section p {
+    margin: 5px 0;
+}
+  
+.logo ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.logo li {
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+.icon {
+    color: #ffffff; /* White icon color for contrast */
+    font-size: 4em; /* Slightly smaller icon size for balance */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+  
+.icon:hover {
+    color: rgb(39, 253, 103); /* Matches hover color of send button */
+}
