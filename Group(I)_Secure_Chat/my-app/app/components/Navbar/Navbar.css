@@ -1,0 +1,40 @@
+.Navbar-container {
+    height: 150px;
+    background: linear-gradient(#2c2b2b, #343541);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-top: 2px solid #2E2F3A;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.head1 {
+    font-size: 30px;
+}
+
+.navigation-links ul {
+    font-size: 25px;
+    margin-right: 800px;
+    display: flex; 
+    gap: 20px; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.navigation-links li {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navigation-links a:hover {
+    text-decoration: underline; 
+}
