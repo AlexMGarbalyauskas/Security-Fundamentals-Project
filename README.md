@@ -1,4 +1,4 @@
-# Security Fundamental project 
+# Security Fundamental Project 
 
 ## Authentication
 Authentication is achieved using clerk Auth () to create a login functionality for users to access to ensure applications integrity 
